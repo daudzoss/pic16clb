@@ -1,0 +1,20 @@
+{
+    "type": "CLB Synthesizer Library Module",
+    "version": "1.0",
+    "name": "sel3to8e",
+    "files": [
+        {
+            "name": "main",
+            "file": "main.sch",
+            "id": "cefc9e3e-491e-4f3f-a172-51229992733e",
+            "type": "diagram"
+        },
+        {
+            "name": "sel3to8e",
+            "file": "sel3to8e.v",
+            "id": "a96c9034-f6ea-4944-bab3-8df4e80a809f",
+            "type": "verilog"
+        }
+    ],
+    "entryFile": "main"
+}
