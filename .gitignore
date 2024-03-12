@@ -1,3 +1,6 @@
+# Emacs specific
+*\#*
+
 # MPLAB specific
 *.lst
 debug
