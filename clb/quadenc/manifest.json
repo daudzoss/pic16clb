@@ -1,0 +1,20 @@
+{
+    "type": "CLB Synthesizer Library Module",
+    "version": "1.0",
+    "name": "qe",
+    "files": [
+        {
+            "name": "main",
+            "file": "main.sch",
+            "id": "a6a1478f-79fb-46a1-95fa-4364a607d43b",
+            "type": "diagram"
+        },
+        {
+            "name": "qe",
+            "file": "qe.v",
+            "id": "91ac2b19-9b45-4e85-890e-7c8e8fd5aabc",
+            "type": "verilog"
+        }
+    ],
+    "entryFile": "main"
+}
