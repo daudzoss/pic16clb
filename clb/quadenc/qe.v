@@ -1,8 +1,8 @@
-module qe(i, q, clr, /*y15,y14,y13,y12,y11,y10,y9,y8,*/y7,y6,y5,y4,y3,y2,y1,y0);
+module qe(i, q, clr, /*y15,y14,y13,y12,y11,y10,y9,y8,y7,y6,y5,y4,*/y3,y2,y1,y0);
    input i, q, clr;
 
-   output /*y15,y14,y13,y12,y11,y10,y9,y8,*/y7,y6,y5,y4,y3,y2,y1,y0;
-   reg [7/*15*/:0] value;
+   output /*y15,y14,y13,y12,y11,y10,y9,y8,y7,y6,y5,y4,*/y3,y2,y1,y0;
+   reg [3/*15*/:0] value;
 /*   assign y15 = value[15];
    assign y14 = value[14];
    assign y13 = value[13];
@@ -21,17 +21,17 @@ module qe(i, q, clr, /*y15,y14,y13,y12,y11,y10,y9,y8,*/y7,y6,y5,y4,y3,y2,y1,y0);
    assign y0 = value[0];
 
    always @(posedge clr)
-     value = 7/*16*/'b0;
+     value = 4/*16*/'b0;
    
    always @(posedge i)
-     value = clr ? 7/*16*/'b0 : (value + (q ? -1 : +1));
+     value = clr ? 4/*16*/'b0 : (value + (q ? -1 : +1));
 
    always @(negedge i)
-     value = clr ? 7/*16*/'b0 : (value + (q ? +1 : -1));
+     value = clr ? 4/*16*/'b0 : (value + (q ? +1 : -1));
      
    always @(posedge q)
-     value = clr ? 7/*16*/'b0 : (value + (i ? +1 : -1));
+     value = clr ? 4/*16*/'b0 : (value + (i ? +1 : -1));
 
    always @(negedge q)
-     value = clr ? 7/*16*/'b0 : (value + (i ? -1 : +1));
+     value = clr ? 4/*16*/'b0 : (value + (i ? -1 : +1));
 endmodule
