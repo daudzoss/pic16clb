@@ -10,15 +10,21 @@
             "type": "diagram"
         },
         {
-            "name": "qe",
-            "file": "qe.v",
-            "id": "91ac2b19-9b45-4e85-890e-7c8e8fd5aabc",
-            "type": "verilog"
+            "name": "qeblocks",
+            "file": "qeblocks.sch",
+            "id": "9f656a21-4044-40e0-b9fd-1937b1e70102",
+            "type": "diagram"
         },
         {
-            "name": "pic16f131_counter",
-            "file": "pic16f131_counter.v",
-            "id": "75331ea6-89b9-4a79-8b37-89169e7a00be",
+            "name": "count_up_down_4b",
+            "file": "count_up_down_4b.sch",
+            "id": "01e3b3e6-a4d5-4ade-aa0e-75a1f217fdef",
+            "type": "diagram"
+        },
+        {
+            "name": "qelogic",
+            "file": "qelogic.v",
+            "id": "d8ae191a-a721-440f-84ad-d29e763f96fe",
             "type": "verilog"
         }
     ],
