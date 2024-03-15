@@ -26,6 +26,12 @@
             "file": "qelogic.v",
             "id": "d8ae191a-a721-440f-84ad-d29e763f96fe",
             "type": "verilog"
+        },
+        {
+            "name": "terminator",
+            "file": "terminator.v",
+            "id": "76feac36-769e-4020-ad4e-f4a34a0457bb",
+            "type": "verilog"
         }
     ],
     "entryFile": "main"
