@@ -1,7 +1,7 @@
 {
     "type": "CLB Synthesizer Library Module",
     "version": "1.0",
-    "name": "7segment",
+    "name": "just1dig",
     "files": [
         {
             "name": "main",
