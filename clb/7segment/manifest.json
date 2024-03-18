@@ -1,0 +1,32 @@
+{
+    "type": "CLB Synthesizer Library Module",
+    "version": "1.0",
+    "name": "7segment",
+    "files": [
+        {
+            "name": "main",
+            "file": "main.sch",
+            "id": "82e2a94f-db39-4cda-86ce-8dd848a5427c",
+            "type": "diagram"
+        },
+        {
+            "name": "d7seg8b",
+            "file": "d7seg8b.sch",
+            "id": "2af4b49d-bdb6-4709-a0bf-6ff99d9102f6",
+            "type": "diagram"
+        },
+        {
+            "name": "pic16f131_counter",
+            "file": "pic16f131_counter.v",
+            "id": "75331ea6-89b9-4a79-8b37-89169e7a00be",
+            "type": "verilog"
+        },
+        {
+            "name": "d7seg4b",
+            "file": "d7seg4b.v",
+            "id": "25e086cd-0483-4760-abab-971ac601402f",
+            "type": "verilog"
+        }
+    ],
+    "entryFile": "main"
+}
