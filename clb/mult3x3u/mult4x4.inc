@@ -53,4 +53,5 @@ oldmult	macro	mem1,mem2,check
 
 	rlf	mem1,f		;
 	swapf	mem1,f		;
+toobig
 	endm			; } // firm 14 instruction cycles, no clobbering
